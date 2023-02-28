@@ -1,0 +1,115 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	background-color: black;
+	font-family: cursive;
+}
+
+header {
+}
+
+header h1 {
+	color: white;
+	font-size: 3rem;
+	text-align: center;
+}
+
+nav {
+	margin-top: 4rem;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	width: 100%;
+	padding: 0;
+}
+
+nav li {
+	list-style: none;
+	list-style-position: inside;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: 1rem 1.5rem;
+	background-color: green;
+	border-radius: 50%;
+	color: purple;
+	transition: 300ms all ease-in-out;
+}
+
+nav li a:hover {
+	background-color: purple;
+	color: green;
+	border-radius: 0;
+}
+
+main {
+	width: 75%;
+	margin: 4rem auto;
+	border: 8px solid lightseagreen;
+	background-color: white;
+	border-radius: 2rem 10rem;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	gap: 2rem;
+	padding: 4rem;
+}
+
+.card {
+	background-color: brown;
+}
+
+.card-img {
+	height: 8rem;
+	width: 100%;
+	background-color: white;
+}
+
+.card-content {
+	padding: 0 1rem;
+}
+
+.card-title {
+	color: greenyellow;
+	font-size: 1.5rem;
+	text-align: end;
+}
+
+.card-title:hover {
+	text-align: center;
+}
+
+.card-description {
+	color: white;
+}
+
+footer {
+	background-color: blueviolet;
+	padding: 2rem 0;
+	display: flex;
+	justify-content: center;
+	gap: 4rem;
+}
+
+footer img {
+	height: 10rem;
+	border-radius: 30rem;
+	transition: 300ms border-radius ease-in-out;
+}
+
+footer img:hover {
+	border-radius: 0;
+}
